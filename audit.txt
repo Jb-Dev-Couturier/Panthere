@@ -1,0 +1,54 @@
+Mise en place audit pour ameliratioon SEO
+
+Intro:
+        -   Utilisation de blackHat (meta données poussive et incorrect) certain moteur de recherche bannise les site
+            qui utilise cette méthode
+
+        -   ceci peut engendrer des repercution en cascade inutile et evitable
+
+        -   Adopter une méthode de design inclusif, au service de tous, même si rien n'est jamais parfait
+            élimine des problèmes qui sont eux aussi inclusifs, qui déservent tout le monde, l'accessibilité/ la performance / 
+            le référencement / l'entreprise.
+
+
+
+    
+    1. Détectez les problèmes importants:
+
+    - Il n'y a pas de machine à contenu (blog, news...)
+    - Il manque la méta name=robots (pour indexer les pages) 
+    - Le temps de chargement est important. (https://pagespeed.web.dev/)
+    - Le site n'est pas totalement responsive.
+    - La forme visuelle de certains éléments du site est à améliorer (la liste annuaire importante et mal située...).
+    - Placement des balise script js a placer aux bonnes endroit
+    - Il n'y a pas de méta titre (doit contenir le mot clef de la page jusqu'à 70 caractères).
+    - Il n'y a pas de méta description (Google affiche entre 132 et 160 caractères. 
+    - La présence de la méta name:keywords est inutile
+    - Il y a un manque de structure sémantique et trop de div dans la construction 
+    - Il y a un problème d'arborescence de titre. (h3 avant h2)
+    - Utilisation de pratiques black-hat.
+
+    - Il y a un problème de niveau de titre puis de mots clef contenus dans la page.
+    - Les liens de réseaux sociaux ne sont pas liés au comptes (les pages entreprises sont elles créées?) 
+    - Des liens s'apparentent à du spam et les liens annuaires et partenaires sont contre productifs
+
+
+
+    Recommandation générale:
+
+    -Il faut vérifier la sécurité du site autour des libraries js vulnérables
+    -Il faut stopper la pratique du black-hat, ne pas hésiter à supprimer des éléments inutiles pour simplifier le site.
+    -Installez Google Analytics et Google Search Console pour le site (évolution du trafic).
+	-Il faut effectuer une recherche mots clefs. 
+	-Il faut voir quels sont les mots clefs de la concurrence pour créer du contenu à partir des opportunités détectées.
+    -Il faut créer des liens qui soient le plus naturels possible
+    -Il faut créer un compte Google My Business (profil d'établissement).
+    -Il faut ajouter en page contact le téléphone et la carte d'emplacement.
+
+
+
+    Conclusion:
+
+    Refonte totale du code html ajout de balise semantique reaffectation des script js meta a ameliorer...
+    Sachez que d'autres optimisations, autres que les 10 programmées, sont possibles; comme vous avez pu le constater dans cet audit préalable
+    voila quelque piste a exploiter. a l'ecoute d'une audite plus poussive a l'avenir si l'interet se fait ressentir
