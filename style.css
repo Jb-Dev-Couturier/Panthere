@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -355,13 +355,68 @@ a:hover {
     float: left;
 }
 
+.col-sm-6 p{
+    font-size: 15px;
+}
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
     position: relative;
     z-index: 2;
 }
-
+/* Debut de correction */
+/* ajout d'un titre */
+/* remplacement des textes images par des textes*/
+.remplacement_titre{
+    max-width: 613px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+/*citation*/
+/* remplacement des textes images par des textes*/
+.remplacement_citation{
+    max-width: 562px;
+    color: rgb(90, 90, 90);
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+}
+/* auteur de la citation*/
+.remplacement_auteur{
+    color: rgb(90, 90, 90);
+    font-style: normal;
+}
+.remplacement_texte{
+    max-width: 476px;
+    font-size: 22px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+/* icones réseaux sociaux */
+figure{
+    padding-bottom: 40px;
+}
+figure .social .fa{
+  color:  rgb(80, 48, 48);
+}
+figure .social .fa:hover{
+    color: rgb(30, 30, 30)!important;
+}
+/* footer navigation */
+footer nav{
+    color:rgb(80, 48, 48);
+}
+/* footer navigation lien */
+footer nav a{
+    color:rgb(55, 55, 55)!important;
+}
+/* modification couleur H1/texte dans le header page contact */
+.access_coul{
+    color: rgb(80, 48, 48) !important;
+}
+/* fin de correction */
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -692,7 +747,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    /*color: #FFFFFF!important;*/
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -810,19 +865,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere_banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image_de_presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -873,8 +928,9 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*syntaxe de variable modifiée*/
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -884,8 +940,9 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*syntaxe de variable modifiée et modification égale à au dessus*/
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
