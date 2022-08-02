@@ -859,7 +859,7 @@ h4 {
 }
 .contact{
     padding: 40px;
-    background: #c27956;
+    background: #c5673c;
     box-shadow: 0 5px 35px rgba(0, 0, 0, .5);
 }
 .box{
@@ -906,7 +906,7 @@ h4 {
     font-weight: 900 !important;
     margin-top: 10px ;
     margin-bottom: 5px ;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 .inputBox input{
     padding: 10px;
