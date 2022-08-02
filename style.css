@@ -820,6 +820,127 @@ h4 {
   background-image: url('img/image_de_presentation.webp');
 }
 /*Ajout formulaire contact + google Map*/
+.section-contact{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #99380b 0%,#99380b 30%,#f1f1f1 30%,#f1f1f1 100%);
+}
+.contactUs{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+.contactUs .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactUs .title h2{
+    font-weight: 500 !important;
+    color: #000000 !important;
+    font-size: 2em !important;
+}
+.form{
+    grid-area: form;
+}
+.info{
+    grid-area: info;
+}
+.map{
+    grid-area: map;
+}
+.contact{
+    padding: 40px;
+    background: #c27956;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, .5);
+}
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+.contact h3 {
+    color: #f1f1f1 !important;
+    text-shadow: 1px 1px 2px black;
+    font-weight: 500 !important;
+    font-size: 1.4em !important;
+    text-transform: capitalize !important;
+    margin-bottom: 10px !important;
+}
+/*formumaire*/
+.formBox{
+    position: relative;
+    width: 100%;
+}
+.formBox .row50{
+    display: flex;
+    gap: 20px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.formBox .row100 .inputBox{
+    width: 100%;
+}
+.inputBox label{
+    color: #99380b !important;
+    text-shadow: 1px 1px 2px black;
+    font-weight: 900 !important;
+    margin-top: 10px ;
+    margin-bottom: 5px ;
+    font-size: 1.1em;
+}
+.inputBox input{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 4px solid #c27956;
+}
+.inputBox input:focus{
+    border: 4px solid #99380b;
+}
+.inputBox textarea{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 4px solid #c27956;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+.inputBox textarea:focus{
+    border: 4px solid #99380b;
+}
+.row100 .btnForm{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #99380b;
+    box-shadow: 0 0 5px black;
+    transition: all .5s ease-in-out;
+    max-width: 120px;
+    font-weight: 600;
+}
+.row100 .btnForm:hover{
+    border: 2px solid #99380b;
+    border-radius: 5px;
+    background-color: #99380b;
+    color: #f1f1f1;
+    box-shadow: 0 0 5px #f1f1f1;
+}
+.inputBox ::placeholder{
+    color: #b6b6b6;
+}
 
 @media (max-width: 1024px) {
   .bloc {
