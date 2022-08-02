@@ -17,7 +17,8 @@ body {
     width: 60px;
     height: 60px;
     z-index: 100;
-    color: #000000;
+    color: #ffffff;
+    -webkit-text-stroke: 2px #99380b;
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
@@ -1245,6 +1246,13 @@ h4 {
     justify-content: space-around;
     align-items: center;
   }
+  .scrollTop{
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    -webkit-text-stroke: 2px #99380b;
+}
 }
 
 @media (max-width: 400px) {
@@ -1258,13 +1266,14 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
-}
-
-.citation {
-  font-size: 1.3em;
-  font-style: italic;
-}
-
-.auteur {
-  font-size: 1.3em;
+  
+  .citation {
+    font-size: 1.3em;
+    font-style: italic;
+  }
+  
+  .auteur {
+    font-size: 1.3em;
+  }
+  
 }
