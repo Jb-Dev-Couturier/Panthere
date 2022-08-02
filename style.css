@@ -941,7 +941,58 @@ h4 {
 .inputBox ::placeholder{
     color: #b6b6b6;
 }
+/*Info*/
+.info{
+    background: #99380b;
+}
+.info .infoBox div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info .infoBox div .icons{
+    min-width: 40px;
+    height: 40px;
+    color: #f1f1f1;
+    background: #c27956;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+.info .infoBox .et-icon-map{
+    transform: translateY(-10px);
+}
+.info .infoBox div p{
+    color: #f1f1f1 !important;
+    font-size: 1.3em;
+    font-weight: 900 !important;
+}
+.info .infoBox div a{
+    color: #f1f1f1 !important;
+    font-size: 1.1em;
+}
+.sci{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    display: flex;
+}
+.sci li{
+    list-style: none;
+    margin-right: 15px;
+    font-size: 2em;
+}
 
+.sci li a{
+    color: #c27956 !important;
+}
+.sci li a:hover{
+    color: #f1f1f1 !important;
+}
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
